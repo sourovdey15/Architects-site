@@ -205,3 +205,14 @@ header img {
     display: flex;
     justify-content: space-around;
 }
+/* Footer Area Style */
+.footer-cradit {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff4e7;
+    padding: 5px;
+}
+.footer-cradit p {
+    font-weight: 600;
+}
