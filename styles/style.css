@@ -97,3 +97,37 @@ header img {
 .features-text .orange {
     color: #FF900E;
 }
+/* Exprience Area Style */
+.exprience-area {
+    margin: 80px 0; 
+    display: flex;
+    gap: 60px;
+}
+.col-1 {
+    width: 50%;
+}
+.col-1 p {
+    font-size: 12px;
+}
+.exprience-img-area img {
+    width: 100%;
+}
+/* Exprience Title Style  */
+
+.exprience-title h3 {
+    font-size: 35px;
+    margin: 0;
+    padding-left: 10px;
+    border-left: 5px solid #FF900E;
+}
+.card-area {
+    margin-top: 20px;
+}
+.card {
+     box-shadow: 8px 4px 10px 1px #bababaa1;
+     padding: 20px;
+     margin-bottom: 10px;
+}
+.card h4 {
+    font-size: 13px;
+}
