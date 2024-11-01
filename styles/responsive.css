@@ -18,5 +18,20 @@
         width: 100%;
         margin: 0 auto;
     }
-
+    /* Main Features Area Style */
+    .main {
+        width: 95%;
+        margin: 50px auto;
+    }
+    .features-area {
+        flex-direction: column;
+    }
+    .features-img {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+    .features-text {
+        width: 100%;
+    }
 }
