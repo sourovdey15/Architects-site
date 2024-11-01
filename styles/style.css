@@ -5,8 +5,8 @@ body {
 }
 /* Header Style  */
 header{
-    background-color: #fccc96b3;
-    padding: 50px 130px;
+    background-color: #fff4e7;
+    padding: 20px 130px 50px 130px;
 }
 nav {
     display: flex;
@@ -37,7 +37,8 @@ nav li a {
 }
 .main-title h3 {
     font-size: 50px;
-    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 .m-description p {
     font-size: 14px;
@@ -48,13 +49,52 @@ button {
     background-color: #FF900E;
     color: #FFFFFF;
     padding: 15px 25px;
-    border-radius: 7px;
-    border: none;
+    border-radius: 8px;
+    border: 2px solid #FF900E;
     font-weight: 600;
     margin-top: 20px;
 }
+button:hover {
+    color: #FF900E;
+    background-color: #FFFFFF;
+    
+    border: 2px solid #FF900E;
+}
+
 /* Banner Image Style  */
 header img {
     width: 100%;
     margin-top: 40px;
+}
+/* Main Features Area Style */
+.main {
+    width: 80%;
+    margin: 50px auto;
+
+}
+.features-area {
+    display: flex;
+    align-items: center;
+}
+.features-img {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.features-img img{
+    width: 100%;
+}
+.features-text {
+    width: 50%;
+    padding-left:50px ;
+}
+.features-text h3 {
+    font-size: 35px;
+}
+.features-text .gray, p {
+    color: #727272;
+}
+.features-text .orange {
+    color: #FF900E;
 }
