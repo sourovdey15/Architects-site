@@ -34,4 +34,20 @@
     .features-text {
         width: 100%;
     }
+    /* Exprience Area Style */
+    .exprience-area {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .col-1 {
+        width: 90%;
+    }
+    .exprience-img-area img {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .ten-yer h2 {
+        font-weight: 700;
+    }
 }

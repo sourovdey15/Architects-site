@@ -104,14 +104,12 @@ header img {
     gap: 60px;
 }
 .col-1 {
-    width: 50%;
+    width: 45%;
 }
 .col-1 p {
     font-size: 12px;
 }
-.exprience-img-area img {
-    width: 100%;
-}
+
 /* Exprience Title Style  */
 
 .exprience-title h3 {
@@ -130,4 +128,30 @@ header img {
 }
 .card h4 {
     font-size: 13px;
+}
+
+/* Exprience Area Image Style */
+
+.exprience-img-area img {
+    width: 100%;
+    margin-left: 50px;
+}
+.ten-yer {
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    padding: 40px;
+    position: relative;
+    bottom: 75px;
+    right: 30px;
+}
+.ten-yer h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 ;
+}
+.ten-yer h5 {
+    margin: 0;
 }
